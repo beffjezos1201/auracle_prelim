@@ -4,7 +4,7 @@ from classes.data import Data
 from classes.annotation import Annotation
 
 # Path to dataset
-data_path = Path(r'S:\Auracle\Seizel\ds005873')
+data_path = Path('') #Enter dataset path here
 
 # Build recordings list
 sub_list = [x for x in data_path.glob("sub*")]
