@@ -9,7 +9,7 @@ from net.DL_config import Config
 
 ## Configuration for the generator and models:
 config = Config()
-config.data_path = r'S:\Auracle\Seizel\ds005873'             # path to data
+config.data_path = ''             # Enter path to data
 config.save_dir = 'net/save_dir'                                # save directory of intermediate and output files
 if not os.path.exists(config.save_dir):
   os.mkdir(config.save_dir)
